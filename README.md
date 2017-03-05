@@ -28,7 +28,7 @@ Exposure frequency: 6/minute
 ```
 
 # Conversion Procedure
-The conversion is not perfect but does work. Overall the qualifty is not high since the image area actually converted to immersive 360 is `1080*1080px`
+The conversion is not perfect but does work. Overall the quality is not high since the image area actually converted to immersive 360 is `1080*1080px`
 
 ## Download
 Most recent night's HD video: 
