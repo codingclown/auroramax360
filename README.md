@@ -51,7 +51,7 @@ Adobe After Effects to do polar to equirectangular transform
 3. only select the `My video is spherical (360) option
 4. select `inject metadata` a copy of the video file will be made by the application
 
-## upload
+## Upload
 Upload to YouTube, no special options need to be selected. Should work using motion sensors on a phone as any youtube 360 video
 
 ## Sample
