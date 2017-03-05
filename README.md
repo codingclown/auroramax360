@@ -2,9 +2,11 @@
 The auroamax live cam located in Yellowknife, NWT, Canada. This is an experiment to take the spherical 360 mp4 encoded 1920p file and view it using YouTube's 360 video feature
 
 *Initial spherical 180 fisheye video input*
+
 <img width="534" alt="screen shot 2017-03-04 at 8 00 50 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583547/a01290ea-0115-11e7-97b3-4d682a704bf0.png">
 
 *YouTube 360 video output*
+
 <img width="852" alt="screen shot 2017-03-04 at 8 04 34 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583566/d594b41e-0115-11e7-8381-bb6331501386.png">
 
 ## Camera system
