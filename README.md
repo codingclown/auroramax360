@@ -1,5 +1,7 @@
 # Auroramax 360
-[The auroamax live cam](http://www.asc-csa.gc.ca/eng/astronomy/auroramax/) located in Yellowknife, NWT, Canada. This is an experiment to take the spherical 360 mp4 encoded 1920p file and view it using YouTube's 360 video feature
+[The auroamax live cam](http://www.asc-csa.gc.ca/eng/astronomy/auroramax/) located in Yellowknife, NWT, Canada. The videos are archived as mp4 1920x1080 30 fps for time compression of 300 seconds of recorded time per second of video. About 4 minutes per evening.
+
+This is an experiment to take the spherical 360 mp4 encoded 1920p file and view it using YouTube's 360 video feature
 
 *Initial spherical 180 fisheye video input*
 
@@ -10,7 +12,6 @@
 <img width="852" alt="screen shot 2017-03-04 at 8 04 34 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583566/d594b41e-0115-11e7-8381-bb6331501386.png">
 
 ## Camera system
-The videos are mp4 1920x1080 30 fps for time compression of 300 seconds of recorded time per second of video. About 4 minutes per evening.
 Longitude: 114°21'W
 Latitude: 62°26'N
 Lens: 180° fisheye
@@ -37,7 +38,7 @@ Adobe After Effects to do polar to equirectangular transform
 4. add to render queue as `mp4`, `1920*1080`, `3mbps`
 5. render to file, for example `auroramax360-20170303.mp4`
 
-## add metadata for YouTube consumption
+## Add metadata for YouTube consumption
 1. Download the 360 video metadata injector from for [Mac](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.mac.zip) or [Windows](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.win.zip)
 2. open the app select `open` and choose your new video file
 3. only select the `My video is spherical (360) option
