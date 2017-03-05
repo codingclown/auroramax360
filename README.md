@@ -38,7 +38,7 @@ Most recent night's HD video:
 Adobe After Effects to do polar to equirectangular transform
 
 1. import video to a `1080px*1080px` sequence called `square`
-2. create a second 2160px*1080px sequence called `HD` and insert `square` into it
+2. create a second `2160px*1080px` sequence called `HD` and insert `square` into it
 3. distort the `square` layer using `effect > distort > polar coordinates` as follows
 4. polar coordinate effect settings: `interpolation: 100%`, `polar to rect`
 3. select `layer > transform > fit to comp` to stretch square to fit the extent of HD. 
