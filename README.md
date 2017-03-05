@@ -10,18 +10,17 @@ The auroamax live cam located in Yellowknife, NWT, Canada. This is an experiment
 <img width="852" alt="screen shot 2017-03-04 at 8 04 34 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583566/d594b41e-0115-11e7-8381-bb6331501386.png">
 
 ## Camera system
-Location: Yellowknife, N.W.T. 
+The videos are mp4 1920x1080 30 fps for time compression of 300 seconds of recorded time per second of video. About 4 minutes per evening.
 Longitude: 114°21'W
 Latitude: 62°26'N
-Main camera: Colour all-sky imager
 Lens: 180° fisheye
 ISO: 500
 Aperture: 2.8
 Exposure time: 5 seconds
 Exposure frequency: 6/minute
 
-## File format
-mp4 1920x1080 30 fps for time compression of 300 seconds of recorded time per second of video. About 4 minutes per evening.
+# Conversion Procedure
+The conversion is not perfect but does work. Overall the qualifty is not high since the image area actually converted to immersive 360 is `1080*1080px`
 
 ## Download
 Most recent night's HD video: 
@@ -34,7 +33,7 @@ Adobe After Effects to do polar to equirectangular transform
 2. create a second 2160px*1080px sequence called `HD` and insert `square` into it
 3. distort the `square` layer using `effect > distort > polar coordinates` as follows
 4. polar coordinate effect settings: `interpolation: 100%`, `polar to rect`
-3. select `layer > transform > fit to comp` to stretch square to fit the extent of HD
+3. select `layer > transform > fit to comp` to stretch square to fit the extent of HD. 
 4. add to render queue as `mp4`, `1920*1080`, `3mbps`
 5. render to file, for example `auroramax360-20170303.mp4`
 
