@@ -1,5 +1,5 @@
 # Auroramax 360
-[The auroamax live cam](http://www.asc-csa.gc.ca/eng/astronomy/auroramax/) located in Yellowknife, NWT, Canada. The videos are archived as mp4 1920x1080 30 fps for time compression of 300 seconds of recorded time per second of video. About 4 minutes per evening.
+[The auroamax live cam](http://www.asc-csa.gc.ca/eng/astronomy/auroramax/) located in Yellowknife, NWT, Canada. The videos are archived as MP4 1920x1080 30 fps for time compression of 300 seconds of recorded time per second of video. About 4 minutes per evening.
 
 This is an experiment to take the spherical 360 mp4 encoded 1920p file and view it using YouTube's 360 video feature
 
@@ -9,7 +9,7 @@ This is an experiment to take the spherical 360 mp4 encoded 1920p file and view 
 
 *YouTube 360 video output*
 
-<img width="852" alt="screen shot 2017-03-04 at 8 04 34 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583566/d594b41e-0115-11e7-8381-bb6331501386.png">
+<img width="534" alt="screen shot 2017-03-04 at 8 04 34 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583566/d594b41e-0115-11e7-8381-bb6331501386.png">
 
 ## Camera system
 Longitude: 114°21'W
