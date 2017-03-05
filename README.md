@@ -1,5 +1,5 @@
-# auroramax360
-The auroamax live cam located in Yellowknife, NWT, Canada. This is an experiment to take the spherical 360 mp4 encoded 1920p file and view it using YouTube's 360 video feature
+# Auroramax 360
+[The auroamax live cam](http://www.asc-csa.gc.ca/eng/astronomy/auroramax/) located in Yellowknife, NWT, Canada. This is an experiment to take the spherical 360 mp4 encoded 1920p file and view it using YouTube's 360 video feature
 
 *Initial spherical 180 fisheye video input*
 
