@@ -7,6 +7,11 @@ This is an experiment to take the spherical 360 mp4 encoded 1920p file and view 
 
 *Initial spherical 180 fisheye video input*
 
+
+<img width="1076" alt="screen shot 2017-03-04 at 9 09 05 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583891/e41a2c40-011e-11e7-92fc-621d33600d19.png">
+
+*Equirectangular distortion*
+
 <img width="534" alt="screen shot 2017-03-04 at 8 04 34 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583566/d594b41e-0115-11e7-8381-bb6331501386.png">
 
 *YouTube 360 video output*
