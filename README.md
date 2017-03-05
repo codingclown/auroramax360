@@ -1,8 +1,11 @@
 # auroramax360
+The auroamax live cam located in Yellowknife, NWT, Canada. This is an experiment to take the spherical 360 mp4 encoded 1920p file and view it using YouTube's 360 video feature
 
-The auroamax live cam located in Yellowknife, NWT, Canada.
+*Initial spherical 180 fisheye video input*
+<img width="534" alt="screen shot 2017-03-04 at 8 00 50 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583547/a01290ea-0115-11e7-97b3-4d682a704bf0.png">
 
-This is an experiment to take the spherical 360 mp4 encoded 1920p file and view it using YouTube's 360 video feature
+*YouTube 360 video output*
+<img width="852" alt="screen shot 2017-03-04 at 8 04 34 pm" src="https://cloud.githubusercontent.com/assets/3287519/23583566/d594b41e-0115-11e7-8381-bb6331501386.png">
 
 ## Camera system
 Location: Yellowknife, N.W.T. 
@@ -16,7 +19,7 @@ Exposure time: 5 seconds
 Exposure frequency: 6/minute
 
 ## File format
-mp4 1920x1080 30 fps for time compression of 300 seconds of recorded time per second of video. about 4 minutes per evening.
+mp4 1920x1080 30 fps for time compression of 300 seconds of recorded time per second of video. About 4 minutes per evening.
 
 ## Download
 Most recent night's HD video: 
@@ -25,6 +28,22 @@ Most recent night's HD video:
 ## Conversion
 Adobe After Effects to do polar to equirectangular transform
 
-## Upload
+1. import video to a `1080px*1080px` sequence called `square`
+2. create a second 2160px*1080px sequence called `HD` and insert `square` into it
+3. distort the `square` layer using `effect > distort > polar coordinates` as follows
+4. polar coordinate effect settings: `interpolation: 100%`, `polar to rect`
+3. select `layer > transform > fit to comp` to stretch square to fit the extent of HD
+4. add to render queue as `mp4`, `1920*1080`, `3mbps`
+5. render to file, for example `auroramax360-20170303.mp4`
+
+## add metadata for YouTube consumption
+1. Download the 360 video metadata injector from for [Mac](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.mac.zip) or [Windows](https://github.com/google/spatial-media/releases/download/v2.0/360.Video.Metadata.Tool.win.zip)
+2. open the app select `open` and choose your new video file
+3. only select the `My video is spherical (360) option
+4. select `inject metadata` a copy of the video file will be made by the application
+
+## upload
+Upload to YouTube, no special options need to be selected. Should work using motion sensors on a phone as any youtube 360 video
 
 ## Sample
+[sample 360 conversion video](https://youtu.be/JIaGnnANCAo)
